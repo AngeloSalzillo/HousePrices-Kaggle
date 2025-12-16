@@ -6,8 +6,8 @@ import pandas as pd
 from src.train_xgboost import load_data, train_xgboost
 
 
-BASE_DIR = "/kaggle/input/house-prices-advanced-regression-techniques"
-SAVE_DIR = "results"
+BASE_DIR = "/kaggle/input/house-prices-advanced-regression-technique"
+SAVE_DIR = "/kaggle/working"
 
 X_train, y_train, X_test, ids = load_data(BASE_DIR)
 
