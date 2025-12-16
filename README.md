@@ -21,12 +21,12 @@ Place the files under /kaggle/input/house-prices-advanced-regression-techniques.
   
 ### **Features Engineered**
 
-1. HouseAge – Age of the house at the time of sale
-2. TotalSF – Total square footage (basement + 1st floor + 2nd floor)
-3. TotalBath – Total number of bathrooms (full + half)
-4. TotalPorchSF – Total porch area
-5. RemodAge – Years since last remodeling
-6. Binary flags: HasPool, Has2ndFlr, HasGarage, HasBsmt, HasFireplace
+- HouseAge – Age of the house at the time of sale
+- TotalSF – Total square footage (basement + 1st floor + 2nd floor)
+- TotalBath – Total number of bathrooms (full + half)
+- TotalPorchSF – Total porch area
+- RemodAge – Years since last remodeling
+- Binary flags: HasPool, Has2ndFlr, HasGarage, HasBsmt, HasFireplace
 
 
 
