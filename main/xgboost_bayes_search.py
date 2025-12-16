@@ -5,8 +5,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 import pandas as pd
 from src.train_xgboost import load_data, train_xgboost
 
-
-BASE_DIR = "../../house-prices-advanced-regression-technique"
+BASE_DIR = "/kaggle/input/house-prices-advanced-regression-techniques"
 SAVE_DIR = "/kaggle/working"
 
 X_train, y_train, X_test, ids = load_data(BASE_DIR)
