@@ -1,0 +1,9 @@
+{
+    "regressor__colsample_bytree": 0.5,
+    "regressor__learning_rate": 0.01,
+    "regressor__max_depth": 3,
+    "regressor__n_estimators": 5000,
+    "regressor__reg_alpha": 0.0,
+    "regressor__reg_lambda": 0.0,
+    "regressor__subsample": 0.6065218724262585
+}
