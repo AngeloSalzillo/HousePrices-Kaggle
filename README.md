@@ -2,7 +2,8 @@
 
 This repository contains experiments on predicting house prices using machine learning, with a focus on Random Forest and XGBoost models,
 combined with Bayesian hyperparameter optimization. The goal is to achieve accurate predictions for the Kaggle House Prices: Advanced 
-Regression Techniques competition.
+Regression Techniques competition.  
+
 
 
 
@@ -12,6 +13,7 @@ Download the dataset from Kaggle: House Prices - Advanced Regression Techniques
 Place the files under /kaggle/input/house-prices-advanced-regression-techniques.
 - train.csv – Training data with target variable SalePrice
 - test.csv – Test data for predictions
+  
 
 
 
@@ -26,6 +28,7 @@ Place the files under /kaggle/input/house-prices-advanced-regression-techniques.
 
 
 
+  
 ### **Preprocessing**
 
 - Drop columns with too many missing values: PoolQC, Alley, MiscFeature, Fence, Utilities
@@ -35,8 +38,9 @@ Place the files under /kaggle/input/house-prices-advanced-regression-techniques.
 - Combine feature engineering with preprocessing in a pipeline
 
 
+  
 
-### **Final Result***
+### **Final Result**
 
 The model the resulted to yield the best prediction in terms of accuracy was XGBoost with 
 hyperparameter tuning handled with Bayes Search. 
