@@ -46,7 +46,7 @@ Place the files under /kaggle/input/house-prices-advanced-regression-techniques.
   
 ### **Final Result**
 
-The model the resulted to yield the best prediction in terms of accuracy was XGBoost with 
+The model that resulted to yield the best predictions in terms of accuracy was XGBoost with 
 hyperparameter tuning handled with Bayes Search. 
 Its best parameters are stored in the "results" folder, and allowed to achieve a score of 0.12 (LRMSE).
 The other non winning models are stored in the folder "previous trials"
