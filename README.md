@@ -6,6 +6,7 @@ Regression Techniques competition.
 
 
 
+  
 
 ### **Data**
 
@@ -17,6 +18,7 @@ Place the files under /kaggle/input/house-prices-advanced-regression-techniques.
 
 
 
+  
 ### **Features Engineered**
 
 1. HouseAge – Age of the house at the time of sale
@@ -28,7 +30,8 @@ Place the files under /kaggle/input/house-prices-advanced-regression-techniques.
 
 
 
-  
+
+    
 ### **Preprocessing**
 
 - Drop columns with too many missing values: PoolQC, Alley, MiscFeature, Fence, Utilities
@@ -40,6 +43,7 @@ Place the files under /kaggle/input/house-prices-advanced-regression-techniques.
 
   
 
+  
 ### **Final Result**
 
 The model the resulted to yield the best prediction in terms of accuracy was XGBoost with 
