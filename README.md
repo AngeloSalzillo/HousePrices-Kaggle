@@ -5,7 +5,7 @@ combined with Bayesian hyperparameter optimization. The goal is to achieve accur
 Regression Techniques competition.  
 
 
-
+---
   
 
 ### **Data**
@@ -16,7 +16,7 @@ Place the files under /kaggle/input/house-prices-advanced-regression-techniques.
 - test.csv – Test data for predictions
   
 
-
+---
 
   
 ### **Features Engineered**
@@ -29,7 +29,7 @@ Place the files under /kaggle/input/house-prices-advanced-regression-techniques.
 - Binary flags: HasPool, Has2ndFlr, HasGarage, HasBsmt, HasFireplace
 
 
-
+---
 
     
 ### **Preprocessing**
@@ -41,7 +41,7 @@ Place the files under /kaggle/input/house-prices-advanced-regression-techniques.
 - Combine feature engineering with preprocessing in a pipeline
 
 
-  
+---
 
   
 ### **Final Result**
@@ -50,3 +50,5 @@ The model that resulted to yield the best predictions in terms of accuracy was X
 hyperparameter tuning handled with Bayes Search. 
 Its best parameters are stored in the "results" folder, and allowed to achieve a score of 0.12 (LRMSE).
 The other non winning models are stored in the folder "previous trials"
+
+---
